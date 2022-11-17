@@ -1,0 +1,14 @@
+{
+    "name": "techno-stupid/press",
+    "description": "Am elegent markdown powered blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Mahady Hasan Pial",
+            "email": "pial.coder@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.25"
+    }
+}
