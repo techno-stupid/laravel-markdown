@@ -10,5 +10,18 @@
     ],
     "require-dev": {
         "orchestra/testbench": "^6.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "TechnoStupid\\Press\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TechnoStupid\\Press\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
     }
 }
