@@ -6,7 +6,6 @@ class MarkdownParser
 {
     public static function parse($string)
     {
-        $parseDown = new \Parsedown();
-        return $parseDown->text($string);
+        return \Parsedown::instance()->text($string);
     }
 }
